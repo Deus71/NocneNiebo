@@ -1,3 +1,4 @@
 # NocneNiebo
 Moje zdjęcia nocnego Nieba
-Strona o moich dokonaniach w dziedzinie robienia zdjęć astrofotograficznych
+Strona o moich dokonaniach w dziedzinie robienia zdjęć astrofotograficznych 
+a jak coś dodam?
