@@ -4,28 +4,12 @@
     <meta charset="UTF-8">
     <title>Nocne Niebo: Zdjęcia i Przewodnik</title>
     <link rel="stylesheet" href="styles.css">
-    <script type="text/javascript">
-
-        // function odliczanie()
-        // {
-            var dzisiaj = new Date();
-
-            var dzien = dzisiaj.getDate();
-            var miesiac = dzisiaj.getMonth()+1;
-            var rok = dzisiaj.getFullYear();
-
-            var godzina = dzisiaj.getHours();
-            var minuta = dzisiaj.getMinutes();
-            var sekunda = dzisiaj.getSeconds();
-        // }
-        
-        // document.getElementById("zegar").innerHTML = dzien+"/"+miesiac+"/"+rok+" | "+godzina+":"+minuta+":"+sekunda;
- 
-    </script>
+    <script type="text/javascript" src="timer.js"></script>
 </head>
-<body>
+<body onload="odliczanie();">
 
     <h1>Nocne Niebo: Zdjęcia i Przewodnik</h1>
+    
     <nav>
         <a href="about-me.html">O mnie</a>
         <a href="my-gear.html">Mój sprzęt</a>
@@ -33,11 +17,9 @@
     </nav>
     <footer>
         <div id="zegar"></div>
-        <script type="text/javascript">
-           document.getElementById("zegar").innerHTML = dzien+"/"+miesiac+"/"+rok+" | "+godzina+":"+minuta+":"+sekunda;
-        </script>
         <p>Ostatnia modyfikacja: 6 września 2023</p>
         <a href="https://www.facebook.com/tadeusz.polanowski.9/" target="_blank">Facebook</a> | <a href="https://www.youtube.com/channel/UCkp5mYVVUT5xFQ492VZE04A" target="_blank">YouTube</a>
     </footer>
+    
 </body>
 </html>
