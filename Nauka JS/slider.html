@@ -19,15 +19,17 @@
         function zmienslajd()
         {
             numer++; if (numer>5) numer = 1;
-            var plik = "<img src=\"slajdy/slajd" + numer + ".jpg\"/>";
+            var plik = "<img src=\"slajdy/slajd" + numer + ".JPG\"/>";
             document.getElementById("slider").innerHTML = plik;
 
             setTimeout("zmienslajd()",5000);
+
         }
          
     </script>
 </head>
 <body onload="zmienslajd()">
     <div id="slider"></div>
+    
 </body>
 </html>
